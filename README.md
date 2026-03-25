@@ -3,7 +3,7 @@
 ## Caracteristicas
 1. Es un __lenguaje interpretado__, es decir que su ejecucion se lleva a cabo por un programa llamado interprete
 2. Es de tipado dinamico, quiere decir que el valor que asignemos a las variables puede cambiar
-
+3. Es fuertemente estatico, por ejemplo no puedes hacer suma de un string con un entero
 
 ## Ejecutado de python
 Nos dirigimso al archivo .py y le damos click en run python file.
@@ -20,4 +20,14 @@ Ejemplo: sep(/)
 
 sep="" : Es usado para separar las comas de un print
 
+El simbolo "+" tambien se usa para concatenar cadenas de texto
+
+Cualquier numero vonvertido a booleano es verdadero, pero si un es 0 (cero) convertido a booleano es cero.
+
+Una cadena de texto convertido a booleano siempre da True, a no ser que sea una cadena vacia "" eso si nos va a devolver un False.
+
 ## Tipos de datos
+Existen enteros, booleanos, nontype usados para asignar a variables que han sido creadas y no tienen un tipo definido, tenemos floats, strings
+
+
+## Notas:
