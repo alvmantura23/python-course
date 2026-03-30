@@ -30,4 +30,11 @@ Una cadena de texto convertido a booleano siempre da True, a no ser que sea una 
 Existen enteros, booleanos, nontype usados para asignar a variables que han sido creadas y no tienen un tipo definido, tenemos floats, strings
 
 
-## Notas:
+## Funciones utilzadas:
+
+1. print()
+2. split()
+3. input()
+
+4. if(), else:, elif:
+

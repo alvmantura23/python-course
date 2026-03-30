@@ -1,4 +1,4 @@
-# Si queremos escribir codigo en muchas lineas usamos la sangria
+# Si queremos escribir codigo en muchas lineas usamos la sangria o tabulacion para indicar que el bloque de codigo pertenece a una estructura de control o a una funcion
 
 if 5>3:
     print("5 es mayor que 3")
