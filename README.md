@@ -35,6 +35,12 @@ Existen enteros, booleanos, nontype usados para asignar a variables que han sido
 1. print()
 2. split()
 3. input()
+4. sorted() : Ordenamiento de listas de menor a mayor
+5. append() : Añadeun elemento a la lista, solo recibe un argumento
+6. insert() : sirve para insertar un elemento en una posicion especifica del arreglo
+7. extend() : Sirve para agregar una lista de elementos a la lista original
 
+
+## Estructuras Condicionales
 4. if(), else:, elif:
 
