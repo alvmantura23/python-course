@@ -16,3 +16,14 @@ fried_foods = favorite_foods[0:1]
 fried_foods.extend(favorite_foods[3:5])
 print(fried_foods)
 
+#De la lista anterior de comidas favoritas agregar los ultimos 2 elementos a otralista llamada comidas exoticas
+exotics_foods = favorite_foods[4:] #Se puso desde el indice del elemento hasta el final
+print(exotics_foods)
+
+#De la lista anterior de comidas exoticas hacer una copia usando slicing
+copy_of_exotics_foods = exotics_foods[:]
+print(copy_of_exotics_foods)
+
+#De la lista de favorite foods quiero que me seleciones una elemento si, un elemento no usando slicing
+my_list = favorite_foods[0:5:2]
+print(my_list)
