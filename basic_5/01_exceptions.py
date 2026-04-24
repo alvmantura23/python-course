@@ -36,3 +36,24 @@ while count<3:
         print("La contraseña debe ser un número!!!")
     if (count>=3 and password_number != 2026):
         print("Excediste el numero de intentos")
+
+
+
+
+# ----------------------
+# TRY - EXCEPT - FINALLY
+# ----------------------
+# Finally siempre se va a ejecutar aun cuando se capture la excepcion o no, aqui se hace la liberacion de recursos como cerrar archivos o liberar memoria
+
+'''Ejercicio: Capturar la siguiente excepción, numero dividido entre cero'''
+
+number = 37
+number_cero = 0
+
+try:
+    division = number / number_cero
+except:
+    print("\nUn numero no se puede dividir entre cero!")
+finally:
+    print("Aunque no hayas capturado la excepcion , este mensaje se aparecera")
+
