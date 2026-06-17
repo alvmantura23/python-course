@@ -53,8 +53,6 @@ numbers = []
 while count < 100: # 0
     count += 1 #1
     if count % 3 == 0 or count % 5 == 0:
-        continue
+        continue # Lo que hace es si entra al continue no se va a apregar dicho numero que no sea multiplo de 3 o 5
     numbers.append(count)
 print(numbers)
-
-
