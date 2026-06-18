@@ -85,8 +85,9 @@ while (state):
                             print("No existe usuario con ese dni")
                     
                     elif (credential == "R"):
-                        search = input("Ingrese el numero de DNI del usuario: ")
-                        print("")
+                        search = input("Ingrese el numero de DNI del usuario para eliminar -> ")
+                        data_users.remove(search)
+                        
                     else:
                         if(len(data_users) <= 0):
                             print("La lista de usuarios esta vacia")
