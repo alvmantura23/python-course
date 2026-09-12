@@ -23,11 +23,14 @@ del count, numbers # Para la buena gestion de memoria :)
 # Ejercicio: Tenemos una lista que ha excedido su tamaño maximo de elementos, en este caso se nos solicita ir eliminado elementos hasta que la lista quede con 15 elementos, imprimir los 15 elementos al final
 
 # Primero simularemos el llenado la lista
-count = 0
+count = 1
 numbers = []
-while count < 100:
+while count <= 100:
     numbers.append(count)
     count += 1
+
+print("Mostrando lista de numeros creada...")
+print(numbers)
 
 # Segundo vamos a reduciendo la lista, quitando elementos
 while True:
