@@ -28,13 +28,16 @@ b = list_of_numbers[1]
 c = list_of_numbers[2]
 d = list_of_numbers[3]
 e = list_of_numbers[4]
+f = list_of_numbers[-1] # Es la posicion 0 - 1 , y asi se peude con -2, -3 y asi sucesivamente
 
 print(f"La lista es la siguiente: {list_of_numbers} \nDonde:")
-print(f"el primer elemento es {a}")
-print(f"el segundo elemento es {b}")
-print(f"el tercer elemento es {c}")
-print(f"el cuarto elemento es {d}")
-print(f"el quinto elemento es {e}\n")
+print(f"el primer elemento es: {a}")
+print(f"el segundo elemento es: {b}")
+print(f"el tercer elemento es: {c}")
+print(f"el cuarto elemento es: {d}")
+print(f"el quinto elemento es: {e}")
+print(f"el quinto elemento es: {f}\n") # este elemento deberia ser el elemento en la posicion [0 - 1] osea el anterior al primer elemento que seria el ultimo
+
 
 
 del list_of_numbers
@@ -138,3 +141,12 @@ print(f"El sitio ´{sitio_quitado_de_la_lista} fue eliminado de la lista: {web_s
 list_of_letters = ["a", "n", "i", "t", "a", "l", "a", "v", "a", "l", "a", "t", "i", "n", "a"]
 print(f"Tenemos la siguiente lista: {list_of_letters}")
 print(f"El elemento 'a' se repite: ", list_of_letters.count("a")," veces")
+
+
+# -----------------
+# OTRA FORMA DE CREAR UNA LISTA (list([]))
+# -----------------
+"""Supongamos que queremos crear una lista de diferentes tipos de datos, veamos este ejemplo"""
+
+lista_con_diferentes_tipos_de_datos = list(["Mercurio", "Venus", "Tierra", 222000000, 42000000, True])
+print(f"Mostrando lista con diferentes tipos de datos {lista_con_diferentes_tipos_de_datos}")
